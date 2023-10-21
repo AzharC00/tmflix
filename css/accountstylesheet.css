@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*--------------------------------------nav bar ---------------------------------*/
+.container{
+	max-width: 100%;
+    max-height: 20%;
+	margin:auto;
+
+}
+
+.navlogo{
+    flex:1;
+    height: auto;
+    width: auto;
+	float: left;
+}
+
+.navlogo img{
+    width: 100px;
+    float: left;
+    height: auto;
+    top: 20px; /* your required value */
+    left: 0px;
+    width: 150px;
+    position: left;
+    border: #484745;
+}
+
+.navbar{
+	background-color:#FAE7D5;
+    font-weight: bold;
+	padding:20px;
+}
+
+nav{
+	flex:1;
+	text-align:none;
+}
+
+
+
+
+/*-------------------------------------- nav bar end----------------------------------*/
+/*-------------------------------------- account ----------------------------------*/
+.currentpage{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.back{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    position: fixed;
+    background-color: coral;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formcontainer{
+    width: 100%;
+    height: 1000px;
+    border-style: none;
+}
+
+.formplace{
+    border-radius: 10px;
+    background-color: coral;
+    width: 500px;
+    height: 700px;
+    border-style: solid;
+    text-align: left;
+    padding: 10px;
+}
+input{
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px;
+    padding: 5px;
+}
+
+button{
+    position: relative;
+    background-color: #a0f7fa;
+    border: none;
+    color: #484745;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 12px;
+    position: center;
+}
+
+a{
+    font-style: normal;
+    text-decoration-line: none;
+    color: #000;
+}
+
+/*-------------------------------------- end account ----------------------------------*/
